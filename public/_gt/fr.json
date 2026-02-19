@@ -1,0 +1,27 @@
+{
+  "3e0fef1fe94e8257": {
+    "c": [
+      "gt-react facilite la traduction de vos composants React et vos chaînes de caractères. Enveloppez votre contenu dans un composant <T> et il sera traduit automatiquement."
+    ],
+    "i": 1,
+    "t": "p"
+  },
+  "ae6606ed4112852c": {
+    "c": "Bienvenue dans cette application React internationalisée !",
+    "i": 1,
+    "t": "h1"
+  },
+  "d029d8344b7d9012": {
+    "c": "Cet exemple montre comment utiliser gt-react pour internationaliser une application React construite avec Vite. Essayez de changer de langue à l'aide du menu déroulant ci-dessus.",
+    "i": 1,
+    "t": "p"
+  },
+  "f95e02b3d05ceaab": [
+    {
+      "i": 1,
+      "k": "_gt_value_1",
+      "v": "v"
+    },
+    " Docs"
+  ]
+}
