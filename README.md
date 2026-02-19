@@ -1,6 +1,8 @@
-# React + TypeScript + Vite
+# React + gt-react + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A minimal React + Vite application internationalized with [gt-react](https://generaltranslation.com/docs/react), demonstrating how to add multilingual support to a Vite project.
+
+**[Live Demo →](https://vite-app.generaltranslation.dev)**
 
 Currently, two official plugins are available:
 
