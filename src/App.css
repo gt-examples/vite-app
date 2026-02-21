@@ -140,3 +140,21 @@ h1 {
     background: #1a1a1a;
   }
 }
+
+.disclaimer {
+  margin-top: 4rem;
+  padding: 1rem 2rem;
+  max-width: 48rem;
+  text-align: center;
+}
+
+.disclaimer p {
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: #a1a1aa;
+}
+
+.disclaimer a {
+  color: #a1a1aa;
+  text-decoration: underline;
+}

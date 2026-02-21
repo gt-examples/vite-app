@@ -1,19 +1,21 @@
 import { T, Var } from 'gt-react';
-import { LocaleSelector } from 'gt-react';
+import { LocaleSelector, useGT } from 'gt-react';
 import reactLogo from './assets/react.svg';
 import viteLogo from '/vite.svg';
 import './App.css';
 
 function App() {
+  const gt = useGT();
+
   return (
     <div className="app">
       <header className="header">
         <div className="logos">
           <a href="https://vite.dev" target="_blank" rel="noopener noreferrer">
-            <img src={viteLogo} className="logo" alt="Vite logo" />
+            <img src={viteLogo} className="logo" alt={gt("Vite logo")} />
           </a>
           <a href="https://react.dev" target="_blank" rel="noopener noreferrer">
-            <img src={reactLogo} className="logo react" alt="React logo" />
+            <img src={reactLogo} className="logo react" alt={gt("React logo")} />
           </a>
         </div>
         <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
@@ -21,7 +23,7 @@ function App() {
             href="https://github.com/gt-examples/vite-app"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="View on GitHub"
+            aria-label={gt("View on GitHub")}
             style={{ color: '#a1a1aa', display: 'flex' }}
           >
             <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
@@ -70,6 +72,16 @@ function App() {
           </a>
         </div>
       </main>
+
+      <footer className="disclaimer">
+        <T>
+          <p>
+            This is an example app built with{" "}
+            <a href="https://generaltranslation.com" target="_blank" rel="noopener noreferrer">General Translation</a>{" "}
+            to demonstrate internationalization with gt-react. It is not a real product or service.
+          </p>
+        </T>
+      </footer>
     </div>
   );
 }
