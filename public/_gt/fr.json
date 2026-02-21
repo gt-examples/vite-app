@@ -1,7 +1,10 @@
 {
+  "0c730b7f189776b6": "Voir sur GitHub",
+  "118389d4a4f2c059": "Logo React",
+  "190a8744f66a4534": "Logo Vite",
   "3e0fef1fe94e8257": {
     "c": [
-      "gt-react facilite la traduction de vos composants React et vos chaînes de caractères. Enveloppez votre contenu dans un composant <T> et il sera traduit automatiquement."
+      "gt-react facilite la traduction de vos composants et chaînes React. Enveloppez votre contenu dans un composant <T> et il sera traduit automatiquement."
     ],
     "i": 1,
     "t": "p"
@@ -10,6 +13,19 @@
     "c": "Bienvenue dans cette application React internationalisée !",
     "i": 1,
     "t": "h1"
+  },
+  "bffbc6ac275b7d28": {
+    "c": [
+      "Ceci est un exemple d'application créée avec ",
+      {
+        "c": "General Translation",
+        "i": 2,
+        "t": "a"
+      },
+      " pour illustrer l'internationalisation avec gt-react. Il ne s'agit pas d'un produit ou service réel."
+    ],
+    "i": 1,
+    "t": "p"
   },
   "d029d8344b7d9012": {
     "c": "Cet exemple montre comment utiliser gt-react pour internationaliser une application React construite avec Vite. Essayez de changer de langue à l'aide du menu déroulant ci-dessus.",
